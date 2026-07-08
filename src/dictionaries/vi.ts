@@ -11,18 +11,18 @@ export const vi = {
   meta: {
     defaultTitle: "Sản xuất túi vải không dệt in logo giá xưởng",
     defaultDesc:
-      "Xưởng sản xuất túi vải không dệt in logo theo yêu cầu tại TP.HCM. Túi giá sỉ từ 100 cái, thiết kế miễn phí, giao hàng toàn quốc. Nhận báo giá qua Zalo trong 30 phút.",
+      "Xưởng sản xuất túi vải không dệt in logo theo yêu cầu. Túi giá sỉ từ 100 cái, thiết kế miễn phí, giao hàng toàn quốc. Nhận báo giá qua Zalo trong 30 phút.",
     keywords: [
       "túi vải không dệt",
       "in túi logo",
       "túi giá sỉ",
       "túi vải không dệt in logo",
-      "sản xuất túi vải không dệt TPHCM",
+      "xưởng sản xuất túi vải không dệt",
       "túi đựng trà sữa mang đi",
     ],
     ogLocale: "vi_VN",
     home: {
-      title: "Sản xuất túi vải không dệt in logo giá xưởng tại TP.HCM",
+      title: "Sản xuất túi vải không dệt in logo giá xưởng, giao toàn quốc",
       desc: "Xưởng in túi vải không dệt theo yêu cầu: túi siêu thị, túi trà sữa mang đi, túi quảng cáo. Giá sỉ từ 100 cái, thiết kế miễn phí, giao toàn quốc.",
     },
     products: {
@@ -35,11 +35,11 @@ export const vi = {
     },
     about: {
       title: "Về xưởng — sản xuất trực tiếp, không qua trung gian",
-      desc: "Xưởng sản xuất túi vải không dệt tại Bình Tân, TP.HCM từ năm 2015: 4 dây chuyền may, xưởng in lụa riêng, công suất 50.000 túi/tháng. Giá gốc tại xưởng.",
+      desc: "Xưởng sản xuất túi vải không dệt từ năm 2015: 4 dây chuyền may, xưởng in lụa riêng, công suất 50.000 túi/tháng. Giá gốc tại xưởng.",
     },
     contact: {
       title: "Liên hệ nhận báo giá — phản hồi trong 30 phút",
-      desc: "Liên hệ xưởng túi vải không dệt qua Zalo, điện thoại hoặc form báo giá. Phản hồi trong 30 phút giờ làm việc. Địa chỉ xưởng tại Bình Tân, TP.HCM.",
+      desc: "Liên hệ xưởng túi vải không dệt qua Zalo, điện thoại hoặc form báo giá. Phản hồi trong 30 phút giờ làm việc. Gửi mẫu vải miễn phí trước khi bạn đặt hàng.",
     },
   },
 
@@ -67,7 +67,7 @@ export const vi = {
 
   footer: {
     blurb:
-      "Xưởng sản xuất túi vải không dệt in logo theo yêu cầu tại TP.HCM. Giá xưởng — không qua trung gian, giao hàng toàn quốc.",
+      "Xưởng sản xuất túi vải không dệt in logo theo yêu cầu. Giá xưởng — không qua trung gian, giao hàng toàn quốc.",
     linksTitle: "Liên kết",
     linkProducts: "Sản phẩm & bảng giá",
     linkProcess: "Quy trình đặt hàng",
@@ -136,7 +136,7 @@ export const vi = {
   },
 
   home: {
-    badge: "Xưởng sản xuất trực tiếp tại TP. Hồ Chí Minh",
+    badge: "Xưởng sản xuất trực tiếp — giá tận gốc",
     heroTitle: ["Sản xuất túi vải không dệt in logo ", "giá xưởng"],
     heroSub:
       "Giá rẻ tận gốc, in logo theo yêu cầu, đặt từ 100 cái. Thiết kế miễn phí, sản xuất nhanh 5–7 ngày, giao hàng toàn quốc.",
@@ -152,7 +152,7 @@ export const vi = {
     benefits: [
       {
         title: "Giá xưởng, không trung gian",
-        desc: "Sản xuất trực tiếp tại xưởng ở TP.HCM — bảng giá công khai theo số lượng, đặt càng nhiều giá càng giảm.",
+        desc: "Sản xuất trực tiếp tại xưởng — bảng giá công khai theo số lượng, đặt càng nhiều giá càng giảm.",
       },
       {
         title: "Thiết kế miễn phí",
@@ -160,7 +160,7 @@ export const vi = {
       },
       {
         title: "Giao hàng toàn quốc",
-        desc: "Đơn tại TP.HCM giao tận nơi 1–2 ngày, các tỉnh 3–5 ngày qua nhà xe / chành uy tín. Kiểm hàng trước khi nhận.",
+        desc: "Giao tận nơi trên toàn quốc qua đơn vị vận chuyển uy tín. Kiểm hàng trước khi nhận.",
       },
     ],
     stepsHeading: "Đặt túi in logo chỉ với 4 bước",
@@ -227,7 +227,7 @@ export const vi = {
       {
         title: "Sản xuất & giao hàng",
         time: "5–7 ngày",
-        desc: "Cắt vải, in lụa/chuyển nhiệt, may thành phẩm và kiểm hàng từng lô tại xưởng. Giao tận nơi ở TP.HCM (1–2 ngày), gửi chành xe/nhà xe đi tỉnh (3–5 ngày). Thanh toán phần còn lại khi nhận hàng.",
+        desc: "Cắt vải, in lụa/chuyển nhiệt, may thành phẩm và kiểm hàng từng lô tại xưởng. Giao hàng tận nơi trên toàn quốc qua đơn vị vận chuyển uy tín. Thanh toán phần còn lại khi nhận hàng.",
         note: "Hàng lỗi do xưởng: đổi mới 100%, không tranh cãi.",
       },
     ],
@@ -260,7 +260,7 @@ export const vi = {
   aboutPage: {
     eyebrow: "Về {name}",
     heading: "Chúng tôi là xưởng sản xuất — không phải đơn vị trung gian",
-    sub: "Từ năm {year}, {name} sản xuất túi vải không dệt trực tiếp tại Bình Tân, TP.HCM. Bạn làm việc thẳng với người đứng máy: giá gốc tại xưởng, chỉnh sửa nhanh, chịu trách nhiệm đến chiếc túi cuối cùng.",
+    sub: "Từ năm {year}, {name} sản xuất túi vải không dệt trực tiếp tại xưởng của mình. Bạn làm việc thẳng với người đứng máy: giá gốc tại xưởng, chỉnh sửa nhanh, chịu trách nhiệm đến chiếc túi cuối cùng.",
     stats: [
       ["10+", "năm sản xuất túi vải không dệt"],
       ["50.000", "túi / tháng công suất tối đa"],
@@ -271,7 +271,7 @@ export const vi = {
     capabilities: [
       {
         title: "Xưởng may riêng",
-        desc: "4 dây chuyền may công nghiệp với 25 công nhân lành nghề tại Bình Tân, TP.HCM. Tự chủ tiến độ, không phụ thuộc gia công ngoài — cam kết đúng hẹn giao hàng.",
+        desc: "4 dây chuyền may công nghiệp với 25 công nhân lành nghề. Tự chủ tiến độ, không phụ thuộc gia công ngoài — cam kết đúng hẹn giao hàng.",
       },
       {
         title: "Xưởng in tại chỗ",
@@ -289,7 +289,7 @@ export const vi = {
     whyHeading: "Vì sao mua tại xưởng rẻ hơn?",
     whyBody:
       "Phần lớn nơi bán túi in logo trên mạng là đơn vị thương mại: nhận đơn của bạn rồi đặt lại xưởng như chúng tôi, cộng thêm 20–40% chênh lệch. Làm việc trực tiếp với xưởng, bạn bỏ khoản chênh đó, duyệt mẫu nhanh hơn và khi cần đổi trả không phải chờ “bên em hỏi lại xưởng”.",
-    visit1: "Khách ở TP.HCM có thể ghé xưởng xem máy chạy và nhận mẫu vải trực tiếp: ",
+    visit1: "Cần kiểm tra chất vải trước khi đặt? Xưởng gửi mẫu vải miễn phí tận nơi. Văn phòng giao dịch: ",
     visit2: " ({hours}).",
     ctaHeading: "Kiểm chứng “giá xưởng” ngay hôm nay",
     ctaSub: "Gửi báo giá bạn đang có, xưởng báo lại giá gốc cùng quy cách — so sánh rồi hãy quyết định.",
@@ -306,7 +306,7 @@ export const vi = {
     callSub: "{phone} ({hours})",
     waTitle: "WhatsApp",
     waSub: "Dành cho khách quốc tế / For international buyers",
-    visitTitle: "Ghé xưởng xem trực tiếp",
+    visitTitle: "Văn phòng giao dịch",
     emailLabel: "Email:",
     formHeading: "Hoặc để lại yêu cầu báo giá",
   },

@@ -13,19 +13,19 @@ export const en: typeof vi = {
   meta: {
     defaultTitle: "Custom printed non-woven bags at factory prices",
     defaultDesc:
-      "Non-woven bag factory in Ho Chi Minh City, Vietnam. Custom logo printing, wholesale from 100 pcs, free design mockup, nationwide delivery. Get a quote via Zalo or WhatsApp within 30 minutes.",
+      "Non-woven bag manufacturer serving the Vietnamese market. Custom logo printing, wholesale from 100 pcs, free design mockup, nationwide delivery. Get a quote via Zalo or WhatsApp within 30 minutes.",
     keywords: [
       "non-woven bags Vietnam",
       "custom logo bags",
-      "wholesale bags Ho Chi Minh City",
+      "wholesale bags Vietnam",
       "non-woven bag manufacturer",
       "printed tote bags Vietnam",
       "takeaway bags for cafes",
     ],
     ogLocale: "en_US",
     home: {
-      title: "Custom Printed Non-Woven Bags at Factory Prices — Ho Chi Minh City",
-      desc: "Non-woven bag factory in Vietnam: supermarket totes, takeaway bags, promotional bags. Wholesale from 100 pcs, free design, nationwide delivery.",
+      title: "Custom Printed Non-Woven Bags at Factory Prices — Vietnam Wholesale",
+      desc: "Custom non-woven bags for Vietnam: supermarket totes, takeaway bags, promotional bags. Wholesale from 100 pcs, free design, nationwide delivery.",
     },
     products: {
       title: "Products & wholesale price list for printed non-woven bags",
@@ -37,11 +37,11 @@ export const en: typeof vi = {
     },
     about: {
       title: "About us — a real factory, not a reseller",
-      desc: "Non-woven bag factory in Binh Tan, Ho Chi Minh City since 2015: 4 sewing lines, in-house screen printing, capacity of 50,000 bags/month. True factory prices.",
+      desc: "Non-woven bag factory since 2015: 4 sewing lines, in-house screen printing, capacity of 50,000 bags/month. True factory prices.",
     },
     contact: {
       title: "Contact us for a quote — reply within 30 minutes",
-      desc: "Reach our bag factory via Zalo, WhatsApp, phone or the quote form. Replies within 30 minutes during working hours. Factory in Binh Tan, Ho Chi Minh City.",
+      desc: "Reach our bag factory via Zalo, WhatsApp, phone or the quote form. Replies within 30 minutes during working hours. Free fabric samples before you order.",
     },
   },
 
@@ -69,7 +69,7 @@ export const en: typeof vi = {
 
   footer: {
     blurb:
-      "Custom printed non-woven bag factory in Ho Chi Minh City. Factory-direct prices — no middlemen, nationwide delivery.",
+      "Custom printed non-woven bags at factory-direct prices — no middlemen, nationwide delivery across Vietnam.",
     linksTitle: "Links",
     linkProducts: "Products & price list",
     linkProcess: "How to order",
@@ -138,7 +138,7 @@ export const en: typeof vi = {
   },
 
   home: {
-    badge: "Direct manufacturer in Ho Chi Minh City, Vietnam",
+    badge: "Direct manufacturer — true factory pricing",
     heroTitle: ["Custom printed non-woven bags at ", "factory prices"],
     heroSub:
       "True factory-direct pricing, custom logo printing, minimum order just 100 pcs. Free design, 5–7 day production, nationwide delivery.",
@@ -154,7 +154,7 @@ export const en: typeof vi = {
     benefits: [
       {
         title: "Factory prices, no middlemen",
-        desc: "Made directly at our factory in Ho Chi Minh City — transparent pricing by quantity, the more you order the less you pay.",
+        desc: "Made directly at our own factory — transparent pricing by quantity, the more you order the less you pay.",
       },
       {
         title: "Free design",
@@ -162,7 +162,7 @@ export const en: typeof vi = {
       },
       {
         title: "Nationwide delivery",
-        desc: "Orders in Ho Chi Minh City delivered in 1–2 days; other provinces in 3–5 days via trusted carriers. Inspect before you accept.",
+        desc: "Door-to-door delivery nationwide via trusted carriers. Inspect before you accept.",
       },
     ],
     stepsHeading: "Order printed bags in just 4 steps",
@@ -229,7 +229,7 @@ export const en: typeof vi = {
       {
         title: "Production & delivery",
         time: "5–7 days",
-        desc: "Fabric cutting, screen/heat-transfer printing, sewing and batch inspection at our factory. Door delivery in Ho Chi Minh City (1–2 days), trusted carriers to other provinces (3–5 days). Pay the balance on delivery.",
+        desc: "Fabric cutting, screen/heat-transfer printing, sewing and batch inspection at our factory. Door-to-door delivery nationwide via trusted carriers. Pay the balance on delivery.",
         note: "Factory defects: 100% replacement, no arguments.",
       },
     ],
@@ -262,7 +262,7 @@ export const en: typeof vi = {
   aboutPage: {
     eyebrow: "About {name}",
     heading: "We are the factory — not a reseller",
-    sub: "Since {year}, {name} has manufactured non-woven bags directly in Binh Tan, Ho Chi Minh City. You work straight with the people running the machines: true factory prices, fast revisions, accountable down to the last bag.",
+    sub: "Since {year}, {name} has manufactured non-woven bags at its own factory. You work straight with the people running the machines: true factory prices, fast revisions, accountable down to the last bag.",
     stats: [
       ["10+", "years making non-woven bags"],
       ["50,000", "bags / month max capacity"],
@@ -273,7 +273,7 @@ export const en: typeof vi = {
     capabilities: [
       {
         title: "In-house sewing lines",
-        desc: "4 industrial sewing lines with 25 skilled workers in Binh Tan, Ho Chi Minh City. Full control of our schedule, no outsourcing — deliveries arrive on time.",
+        desc: "4 industrial sewing lines with 25 skilled workers. Full control of our schedule, no outsourcing — deliveries arrive on time.",
       },
       {
         title: "On-site printing",
@@ -291,7 +291,7 @@ export const en: typeof vi = {
     whyHeading: "Why is buying from the factory cheaper?",
     whyBody:
       "Most online sellers of printed bags are trading companies: they take your order, place it with a factory like ours, and add a 20–40% markup. Working directly with the factory, you skip that markup, approve designs faster, and never wait for “let me check with the factory” when something needs fixing.",
-    visit1: "Buyers in Ho Chi Minh City are welcome to visit, watch the machines run and pick up fabric samples: ",
+    visit1: "Want to check the fabric before ordering? We ship free fabric samples to your door. Sales office: ",
     visit2: " ({hours}).",
     ctaHeading: "Put our “factory prices” to the test today",
     ctaSub: "Send us the quote you already have — we'll reply with our factory price for the same specs. Compare, then decide.",
@@ -308,7 +308,7 @@ export const en: typeof vi = {
     callSub: "{phone} ({hours})",
     waTitle: "WhatsApp",
     waSub: "For international buyers",
-    visitTitle: "Visit the factory",
+    visitTitle: "Sales office",
     emailLabel: "Email:",
     formHeading: "Or leave a quote request",
   },
