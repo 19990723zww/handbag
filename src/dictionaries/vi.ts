@@ -200,6 +200,8 @@ export const vi = {
     undecidedSub: "Nhắn Zalo mô tả quán của bạn, xưởng tư vấn loại túi + kích thước tối ưu chi phí nhất.",
     undecidedZalo: "Tư vấn miễn phí qua Zalo",
     undecidedProcess: "Xem quy trình đặt hàng",
+    examplesTitle: "Mẫu hoa văn in sẵn",
+    examplesNote: "In chuyển nhiệt full màu, hoa văn phủ kín túi — chọn mẫu có sẵn hoặc gửi thiết kế riêng của bạn.",
   },
 
   processPage: {

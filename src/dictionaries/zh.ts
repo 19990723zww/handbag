@@ -201,6 +201,8 @@ export const zh: typeof vi = {
     undecidedSub: "在 Zalo 上描述您的店铺，工厂为您推荐性价比最高的袋型和尺寸。",
     undecidedZalo: "Zalo 免费咨询",
     undecidedProcess: "查看下单流程",
+    examplesTitle: "现成印花图案",
+    examplesNote: "全彩热转印满版印花——可选现成图案，也可以用您自己的设计。",
   },
 
   processPage: {

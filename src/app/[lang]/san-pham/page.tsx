@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import PatternMarquee from "@/components/PatternMarquee";
 import ZaloIcon from "@/components/ZaloIcon";
 import { products, formatMoney } from "@/data/products";
 import { site } from "@/data/site";
@@ -130,6 +131,10 @@ export default async function ProductsPage({ params }: { params: LangParams }) {
                   </table>
                 </div>
                 <p className="mt-2 text-xs text-soft">{t.footnote}</p>
+              </div>
+
+              <div className="lg:col-span-2">
+                <PatternMarquee slug={p.slug} title={t.examplesTitle} note={t.examplesNote} />
               </div>
             </section>
           );

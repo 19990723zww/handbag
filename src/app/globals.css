@@ -76,6 +76,29 @@ body {
 .rise-in {
   animation: rise-in 0.6s ease-out both;
 }
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 36s linear infinite;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+  .marquee {
+    overflow-x: auto;
+  }
+}
 .rise-in-1 {
   animation: rise-in 0.6s ease-out 0.1s both;
 }

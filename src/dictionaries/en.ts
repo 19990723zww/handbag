@@ -202,6 +202,8 @@ export const en: typeof vi = {
     undecidedSub: "Message us on Zalo describing your shop — we'll recommend the most cost-effective bag type and size.",
     undecidedZalo: "Free consultation via Zalo",
     undecidedProcess: "See how to order",
+    examplesTitle: "Ready-to-print patterns",
+    examplesNote: "Full-color heat-transfer printing with all-over patterns — pick a ready design or send your own.",
   },
 
   processPage: {
