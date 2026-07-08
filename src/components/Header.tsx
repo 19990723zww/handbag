@@ -33,7 +33,7 @@ export default function Header({ lang, nav }: HeaderProps) {
           href={`/${l}${subPath}`}
           onClick={() => setOpen(false)}
           aria-current={l === lang ? "true" : undefined}
-          className={`rounded-full px-2.5 py-1 text-xs font-bold transition-colors ${
+          className={`whitespace-nowrap rounded-full px-2 py-1 text-xs font-bold transition-colors sm:px-2.5 ${
             l === lang ? "bg-leaf text-white" : "text-soft hover:text-leaf"
           }`}
         >
@@ -56,7 +56,7 @@ export default function Header({ lang, nav }: HeaderProps) {
               <path d="M12 15v5" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" />
             </svg>
           </span>
-          <span className="text-lg font-extrabold tracking-tight text-forest">
+          <span className="whitespace-nowrap text-base font-extrabold tracking-tight text-forest sm:text-lg">
             {site.name}
           </span>
         </Link>

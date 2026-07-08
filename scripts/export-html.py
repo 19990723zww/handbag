@@ -262,7 +262,7 @@ def main():
     (OUT / "index.html").write_text(
         '<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8">'
         '<meta http-equiv="refresh" content="0;url=vi/index.html">'
-        "<title>Túi Vải Xanh</title></head>"
+        f"<title>{site['name']}</title></head>"
         '<body><a href="vi/index.html">Tiếng Việt</a> · '
         '<a href="en/index.html">English</a> · '
         '<a href="zh/index.html">中文</a></body></html>'
