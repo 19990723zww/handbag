@@ -32,8 +32,8 @@ export const en: typeof vi = {
       desc: "Wholesale prices by quantity — 100 / 500 / 1,000 / 5,000 pcs: supermarket totes, takeaway bags, promotional bags. All sizes, 50–120 gsm fabric.",
     },
     process: {
-      title: "How to order printed bags — 4 steps, ready in 5–7 days",
-      desc: "Ordering process: send your logo via Zalo or WhatsApp → get a free design mockup → approve and pay deposit → production and nationwide delivery in 5–7 days.",
+      title: "How to order printed bags — 4 steps, ready in 7–14 days",
+      desc: "Ordering process: send your logo via Zalo or WhatsApp → get a free design mockup → approve and pay deposit → production and nationwide delivery in 7–14 days.",
     },
     about: {
       title: "About us — a real factory, not a reseller",
@@ -88,7 +88,7 @@ export const en: typeof vi = {
     refPrice: "Reference unit price (logo included)",
     totalLabel: "Total ~",
     cta: "Chat on Zalo — lock in your price",
-    note: "Send your logo via Zalo and get a free design mockup within 30 minutes",
+    note: "Send your logo via Zalo and get a free design mockup within 3 working days",
   },
 
   bagArt: {
@@ -141,16 +141,16 @@ export const en: typeof vi = {
     badge: "Direct manufacturer — true factory pricing",
     heroTitle: ["Custom printed non-woven bags at ", "factory prices"],
     heroSub:
-      "True factory-direct pricing, custom logo printing, minimum order just 100 pcs. Free design, 5–7 day production, nationwide delivery.",
+      "True factory-direct pricing, custom logo printing, minimum order just 100 pcs. Free design, 7–14 day production, nationwide delivery.",
     ctaQuote: "Get a quote",
     ctaZalo: "Contact via Zalo",
-    socialProof: "Trusted by 1,200+ bubble tea shops, cafes and retail stores",
+    socialProof: "Serving bubble tea shops, cafes, restaurants and retail stores across Vietnam",
     productsHeading: "Our three best-selling bag lines",
     productsSub: "Reference prices include 1-color logo printing — see details for all 4 quantity tiers.",
     viewAll: "View all products & pricing →",
     bestSeller: "Best seller",
     fromOnly: "From just",
-    whyHeading: "Why do 1,200+ shop owners choose {name}?",
+    whyHeading: "Why do shop owners choose {name}?",
     benefits: [
       {
         title: "Factory prices, no middlemen",
@@ -158,7 +158,7 @@ export const en: typeof vi = {
       },
       {
         title: "Free design",
-        desc: "Send your logo via Zalo and our design team builds a complete bag mockup free within 30 minutes — you approve before we produce.",
+        desc: "Send your logo via Zalo and our design team builds a complete bag mockup free within 3 working days — you approve before we produce.",
       },
       {
         title: "Nationwide delivery",
@@ -169,12 +169,12 @@ export const en: typeof vi = {
     stepLabel: "Step",
     steps: [
       ["Send your logo via Zalo", "Include bag type and estimated quantity"],
-      ["Get a free mockup", "Design ready within 30 minutes"],
+      ["Get a free mockup", "Design ready within 3 working days"],
       ["Approve & pay deposit", "Lock the price, sign off the print proof"],
-      ["Production & delivery", "5–7 days, delivered nationwide"],
+      ["Production & delivery", "7–14 days, delivered nationwide"],
     ],
     viewProcess: "See the full process →",
-    ctaHeading: "Send your logo today — mockup in 30 minutes",
+    ctaHeading: "Send your logo today — mockup within 3 working days",
     ctaSub: "Free quote, no strings attached. Chat directly with the factory — no sales middlemen.",
     ctaZaloFull: "Chat on Zalo: {phone}",
     ctaForm: "Fill in the quote form",
@@ -207,7 +207,7 @@ export const en: typeof vi = {
   },
 
   processPage: {
-    heading: "How to order — bags in your hands in 5–7 days",
+    heading: "How to order — bags in your hands in 7–14 days",
     sub: "Everything happens over Zalo, no factory visit needed. Approve the design first, pay the deposit after — you always see your exact bag before production starts.",
     steps: [
       {
@@ -218,7 +218,7 @@ export const en: typeof vi = {
       },
       {
         title: "Get a free design mockup",
-        time: "within 30 minutes",
+        time: "3 working days",
         desc: "We build a complete bag mockup with your logo: print position, text size, fabric color. Revise as much as you like until you're happy — completely free, no deposit required.",
         note: "Comes with a detailed quote for your exact quantity and specs.",
       },
@@ -230,13 +230,13 @@ export const en: typeof vi = {
       },
       {
         title: "Production & delivery",
-        time: "5–7 days",
+        time: "7–14 days",
         desc: "Fabric cutting, screen/heat-transfer printing, sewing and batch inspection at our factory. Door-to-door delivery nationwide via trusted carriers. Pay the balance on delivery.",
         note: "Factory defects: 100% replacement, no arguments.",
       },
     ],
     ctaHeading: "Start step 1 right now",
-    ctaSub: "Send your logo via Zalo — 30 minutes later you'll have a mockup and quote in hand.",
+    ctaSub: "Send your logo via Zalo — quote within 30 minutes, mockup within 3 working days.",
     ctaBtn: "Send your logo via Zalo: {phone}",
     faqHeading: "Frequently asked questions",
     faqs: [
@@ -250,7 +250,7 @@ export const en: typeof vi = {
       ],
       [
         "Can you handle rush orders?",
-        "Rush orders in 3–4 days are possible for quantities under 2,000 pcs (small surcharge). Let us know via Zalo in advance so we can schedule the machines.",
+        "Rush orders in 5–7 days are possible for quantities under 2,000 pcs (small surcharge). Let us know via Zalo in advance so we can schedule the machines.",
       ],
       [
         "How do I order from another province or abroad?",
@@ -268,7 +268,7 @@ export const en: typeof vi = {
     stats: [
       ["10+", "years making non-woven bags"],
       ["50,000", "bags / month max capacity"],
-      ["1,200+", "shops & stores served"],
+      ["4", "industrial sewing lines"],
       ["100%", "replacement for factory defects"],
     ],
     capHeading: "Production capabilities",

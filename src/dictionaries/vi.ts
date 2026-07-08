@@ -30,8 +30,8 @@ export const vi = {
       desc: "Bảng giá sỉ túi vải không dệt theo số lượng 100 / 500 / 1.000 / 5.000 cái: túi siêu thị, túi trà sữa mang đi, túi quảng cáo. Đủ kích thước, định lượng vải 50–120 gsm.",
     },
     process: {
-      title: "Quy trình đặt túi in logo — 4 bước, 5–7 ngày có hàng",
-      desc: "Quy trình in túi vải không dệt: gửi logo qua Zalo → nhận mockup thiết kế miễn phí → duyệt mẫu & đặt cọc → sản xuất và giao hàng toàn quốc trong 5–7 ngày.",
+      title: "Quy trình đặt túi in logo — 4 bước, 7–14 ngày có hàng",
+      desc: "Quy trình in túi vải không dệt: gửi logo qua Zalo → nhận mockup thiết kế miễn phí → duyệt mẫu & đặt cọc → sản xuất và giao hàng toàn quốc trong 7–14 ngày.",
     },
     about: {
       title: "Về xưởng — sản xuất trực tiếp, không qua trung gian",
@@ -86,7 +86,7 @@ export const vi = {
     refPrice: "Đơn giá tham khảo (đã in logo)",
     totalLabel: "Tổng ~",
     cta: "Chat Zalo — chốt giá chính xác",
-    note: "Gửi logo qua Zalo, nhận mockup thiết kế miễn phí trong 30 phút",
+    note: "Gửi logo qua Zalo, nhận mockup thiết kế miễn phí trong 3 ngày làm việc",
   },
 
   bagArt: {
@@ -139,16 +139,16 @@ export const vi = {
     badge: "Xưởng sản xuất trực tiếp — giá tận gốc",
     heroTitle: ["Sản xuất túi vải không dệt in logo ", "giá xưởng"],
     heroSub:
-      "Giá rẻ tận gốc, in logo theo yêu cầu, đặt từ 100 cái. Thiết kế miễn phí, sản xuất nhanh 5–7 ngày, giao hàng toàn quốc.",
+      "Giá rẻ tận gốc, in logo theo yêu cầu, đặt từ 100 cái. Thiết kế miễn phí, sản xuất nhanh 7–14 ngày, giao hàng toàn quốc.",
     ctaQuote: "Nhận báo giá",
     ctaZalo: "Liên hệ Zalo",
-    socialProof: "Đã đồng hành cùng 1.200+ quán trà sữa, cà phê và cửa hàng bán lẻ",
+    socialProof: "Chuyên phục vụ quán trà sữa, cà phê, nhà hàng và cửa hàng bán lẻ",
     productsHeading: "Ba dòng túi bán chạy nhất",
     productsSub: "Giá tham khảo đã gồm in logo 1 màu — xem chi tiết để so đủ 4 mức số lượng.",
     viewAll: "Xem tất cả sản phẩm & bảng giá →",
     bestSeller: "Bán chạy",
     fromOnly: "Chỉ từ",
-    whyHeading: "Vì sao 1.200+ chủ quán chọn {name}?",
+    whyHeading: "Vì sao các chủ quán chọn {name}?",
     benefits: [
       {
         title: "Giá xưởng, không trung gian",
@@ -156,7 +156,7 @@ export const vi = {
       },
       {
         title: "Thiết kế miễn phí",
-        desc: "Gửi logo qua Zalo, đội thiết kế dựng mockup túi hoàn chỉnh miễn phí trong 30 phút — duyệt rồi mới sản xuất.",
+        desc: "Gửi logo qua Zalo, đội thiết kế dựng mockup túi hoàn chỉnh miễn phí trong 3 ngày làm việc — duyệt rồi mới sản xuất.",
       },
       {
         title: "Giao hàng toàn quốc",
@@ -167,12 +167,12 @@ export const vi = {
     stepLabel: "Bước",
     steps: [
       ["Gửi logo qua Zalo", "Kèm loại túi và số lượng dự kiến"],
-      ["Nhận mockup miễn phí", "Thiết kế dựng mẫu trong 30 phút"],
+      ["Nhận mockup miễn phí", "Thiết kế dựng mẫu trong 3 ngày làm việc"],
       ["Duyệt mẫu & đặt cọc", "Chốt giá, ký duyệt maquette in"],
-      ["Sản xuất & giao hàng", "5–7 ngày, giao tận nơi toàn quốc"],
+      ["Sản xuất & giao hàng", "7–14 ngày, giao tận nơi toàn quốc"],
     ],
     viewProcess: "Xem quy trình chi tiết →",
-    ctaHeading: "Gửi logo hôm nay — nhận mockup trong 30 phút",
+    ctaHeading: "Gửi logo hôm nay — nhận mockup trong 3 ngày làm việc",
     ctaSub: "Báo giá miễn phí, không ràng buộc. Chat trực tiếp với xưởng, không qua sale trung gian.",
     ctaZaloFull: "Chat Zalo: {phone}",
     ctaForm: "Điền form báo giá",
@@ -205,7 +205,7 @@ export const vi = {
   },
 
   processPage: {
-    heading: "Quy trình đặt hàng — nhận túi sau 5–7 ngày",
+    heading: "Quy trình đặt hàng — nhận túi sau 7–14 ngày",
     sub: "Tất cả thao tác qua Zalo, không cần đến xưởng. Duyệt mẫu trước, đặt cọc sau — bạn luôn thấy chính xác chiếc túi của mình trước khi sản xuất.",
     steps: [
       {
@@ -216,7 +216,7 @@ export const vi = {
       },
       {
         title: "Nhận mockup thiết kế miễn phí",
-        time: "trong 30 phút",
+        time: "3 ngày làm việc",
         desc: "Xưởng dựng mẫu túi hoàn chỉnh với logo của bạn: vị trí in, kích thước chữ, màu vải. Chỉnh sửa thoải mái đến khi ưng ý — hoàn toàn miễn phí, chưa cần đặt cọc.",
         note: "Kèm báo giá chi tiết theo đúng số lượng và quy cách bạn chọn.",
       },
@@ -228,13 +228,13 @@ export const vi = {
       },
       {
         title: "Sản xuất & giao hàng",
-        time: "5–7 ngày",
+        time: "7–14 ngày",
         desc: "Cắt vải, in lụa/chuyển nhiệt, may thành phẩm và kiểm hàng từng lô tại xưởng. Giao hàng tận nơi trên toàn quốc qua đơn vị vận chuyển uy tín. Thanh toán phần còn lại khi nhận hàng.",
         note: "Hàng lỗi do xưởng: đổi mới 100%, không tranh cãi.",
       },
     ],
     ctaHeading: "Bắt đầu bước 1 ngay bây giờ",
-    ctaSub: "Gửi logo qua Zalo — 30 phút sau bạn có mockup và báo giá trong tay.",
+    ctaSub: "Gửi logo qua Zalo — báo giá trong 30 phút, mockup trong 3 ngày làm việc.",
     ctaBtn: "Gửi logo qua Zalo: {phone}",
     faqHeading: "Câu hỏi thường gặp",
     faqs: [
@@ -248,7 +248,7 @@ export const vi = {
       ],
       [
         "Gấp quá thì làm kịp không?",
-        "Đơn gấp 3–4 ngày làm được với số lượng dưới 2.000 cái (phụ thu nhẹ). Báo trước qua Zalo để xưởng xếp lịch máy.",
+        "Đơn gấp 5–7 ngày làm được với số lượng dưới 2.000 cái (phụ thu nhẹ). Báo trước qua Zalo để xưởng xếp lịch máy.",
       ],
       [
         "Ở tỉnh xa đặt hàng thế nào?",
@@ -266,7 +266,7 @@ export const vi = {
     stats: [
       ["10+", "năm sản xuất túi vải không dệt"],
       ["50.000", "túi / tháng công suất tối đa"],
-      ["1.200+", "quán & cửa hàng đã đặt túi"],
+      ["4", "dây chuyền may công nghiệp"],
       ["100%", "đổi mới nếu lỗi do xưởng"],
     ],
     capHeading: "Năng lực sản xuất",

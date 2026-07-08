@@ -32,8 +32,8 @@ export const zh: typeof vi = {
       desc: "按数量分档的批发价：100 / 500 / 1,000 / 5,000 个。超市袋、外卖袋、广告袋，各种尺寸，布料克重 50–120 gsm。",
     },
     process: {
-      title: "下单流程 — 4 步，5–7 天交货",
-      desc: "定制流程：通过 Zalo/WhatsApp 发送 LOGO → 免费获取设计效果图 → 确认样稿并付定金 → 生产并全国发货，5–7 天完成。",
+      title: "下单流程 — 4 步，7–14 天交货",
+      desc: "定制流程：通过 Zalo/WhatsApp 发送 LOGO → 免费获取设计效果图 → 确认样稿并付定金 → 生产并全国发货，7–14 天完成。",
     },
     about: {
       title: "关于工厂 — 源头生产，非中间商",
@@ -87,7 +87,7 @@ export const zh: typeof vi = {
     refPrice: "参考单价（含印 LOGO）",
     totalLabel: "总计约",
     cta: "Zalo 咨询 — 锁定准确价格",
-    note: "通过 Zalo 发送 LOGO，30 分钟内免费获取设计效果图",
+    note: "通过 Zalo 发送 LOGO，3 个工作日内免费获取设计效果图",
   },
 
   bagArt: {
@@ -140,16 +140,16 @@ export const zh: typeof vi = {
     badge: "源头工厂直供，一手价格",
     heroTitle: ["无纺布袋定制印 LOGO，", "工厂直供价"],
     heroSub:
-      "源头价格，按需印制 LOGO，100 个起订。免费设计，5–7 天快速生产，越南全国发货。",
+      "源头价格，按需印制 LOGO，100 个起订。免费设计，7–14 天快速生产，越南全国发货。",
     ctaQuote: "获取报价",
     ctaZalo: "Zalo 联系",
-    socialProof: "已服务 1,200+ 家奶茶店、咖啡店和零售店铺",
+    socialProof: "专注服务奶茶店、咖啡店、餐馆和零售店铺",
     productsHeading: "三大畅销袋型",
     productsSub: "参考价已含单色 LOGO 印刷——点击查看 4 档数量的完整价格。",
     viewAll: "查看全部产品与价目表 →",
     bestSeller: "畅销",
     fromOnly: "低至",
-    whyHeading: "为什么 1,200+ 店主选择{name}？",
+    whyHeading: "为什么店主们选择{name}？",
     benefits: [
       {
         title: "出厂价，无中间商",
@@ -157,7 +157,7 @@ export const zh: typeof vi = {
       },
       {
         title: "免费设计",
-        desc: "通过 Zalo 发送 LOGO，设计团队 30 分钟内免费做出完整袋子效果图——确认后才投产。",
+        desc: "通过 Zalo 发送 LOGO，设计团队 3 个工作日内免费做出完整袋子效果图——确认后才投产。",
       },
       {
         title: "全国发货",
@@ -168,12 +168,12 @@ export const zh: typeof vi = {
     stepLabel: "第",
     steps: [
       ["通过 Zalo 发送 LOGO", "附上袋型和预计数量"],
-      ["免费获取效果图", "设计 30 分钟内出稿"],
+      ["免费获取效果图", "设计 3 个工作日内出稿"],
       ["确认样稿并付定金", "锁定价格，签认印刷样稿"],
-      ["生产与发货", "5–7 天，全国送货上门"],
+      ["生产与发货", "7–14 天，全国送货上门"],
     ],
     viewProcess: "查看详细流程 →",
-    ctaHeading: "今天发送 LOGO — 30 分钟拿到效果图",
+    ctaHeading: "今天发送 LOGO — 3 个工作日拿到效果图",
     ctaSub: "免费报价，无任何约束。直接与工厂沟通，没有中间销售。",
     ctaZaloFull: "Zalo 咨询：{phone}",
     ctaForm: "填写报价表单",
@@ -206,7 +206,7 @@ export const zh: typeof vi = {
   },
 
   processPage: {
-    heading: "下单流程 — 5–7 天拿到袋子",
+    heading: "下单流程 — 7–14 天拿到袋子",
     sub: "全程通过 Zalo 完成，无需到厂。先确认设计，后付定金——投产前您一定能看到自己袋子的最终样子。",
     steps: [
       {
@@ -217,7 +217,7 @@ export const zh: typeof vi = {
       },
       {
         title: "免费获取设计效果图",
-        time: "30 分钟内",
+        time: "3 个工作日",
         desc: "工厂用您的 LOGO 做出完整袋子效果图：印刷位置、字体大小、布料颜色。满意为止随意修改——完全免费，无需定金。",
         note: "同时附上按您所选数量和规格的详细报价。",
       },
@@ -229,13 +229,13 @@ export const zh: typeof vi = {
       },
       {
         title: "生产与发货",
-        time: "5–7 天",
+        time: "7–14 天",
         desc: "裁布、丝印/热转印、缝制成品并逐批质检。全国送货上门，可靠物流配送。收货时支付尾款。",
         note: "工厂原因导致的次品：100% 换新，绝不扯皮。",
       },
     ],
     ctaHeading: "现在就开始第一步",
-    ctaSub: "通过 Zalo 发送 LOGO——30 分钟后效果图和报价就到您手上。",
+    ctaSub: "通过 Zalo 发送 LOGO——30 分钟内回复报价，3 个工作日内出效果图。",
     ctaBtn: "Zalo 发送 LOGO：{phone}",
     faqHeading: "常见问题",
     faqs: [
@@ -249,7 +249,7 @@ export const zh: typeof vi = {
       ],
       [
         "很急能赶得上吗？",
-        "2,000 个以内的加急单 3–4 天可完成（少量加收费用）。请提前在 Zalo 告知，以便工厂安排机器排期。",
+        "2,000 个以内的加急单 5–7 天可完成（少量加收费用）。请提前在 Zalo 告知，以便工厂安排机器排期。",
       ],
       [
         "外省或海外怎么下单？",
@@ -267,7 +267,7 @@ export const zh: typeof vi = {
     stats: [
       ["10+", "年无纺布袋生产经验"],
       ["50,000", "个 / 月最大产能"],
-      ["1,200+", "家店铺客户"],
+      ["4 条", "工业缝制生产线"],
       ["100%", "工厂次品换新"],
     ],
     capHeading: "生产能力",
