@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-forest: #123b26;
+  --color-leaf: #1e7a45;
+  --color-leaf-dark: #166035;
+  --color-mint: #eef6f0;
+  --color-mint-deep: #dcebe1;
+  --color-ink: #1c2a21;
+  --color-soft: #5a6e61;
+  --color-line: #d7e3da;
+  --color-zalo: #0068ff;
+  --color-zalo-dark: #0053cc;
+
+  --font-sans: var(--font-be-vietnam), system-ui, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-leaf);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-leaf);
+  outline-offset: 2px;
+}
+
+@keyframes float-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 104, 255, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(0, 104, 255, 0);
+  }
+}
+
+.zalo-pulse {
+  animation: float-pulse 2.4s ease-out infinite;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rise-in {
+  animation: rise-in 0.6s ease-out both;
+}
+.rise-in-1 {
+  animation: rise-in 0.6s ease-out 0.1s both;
+}
+.rise-in-2 {
+  animation: rise-in 0.6s ease-out 0.2s both;
 }
