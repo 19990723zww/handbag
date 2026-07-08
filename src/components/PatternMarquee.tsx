@@ -1,6 +1,6 @@
+import fs from "node:fs";
+import path from "node:path";
 import Image from "next/image";
-
-const EXAMPLE_COUNT = 6;
 
 type PatternMarqueeProps = {
   slug: string;
@@ -8,9 +8,17 @@ type PatternMarqueeProps = {
   note: string;
 };
 
-// 跑马灯展示满版印花示例袋（纯 CSS 循环，hover 暂停）
+// 跑马灯展示印花示例袋（纯 CSS 循环，hover 暂停）。
+// 图片列表在构建时扫描 public/products/examples/ 自动生成，
+// 增删图片文件即可，不用改代码。
 export default function PatternMarquee({ slug, title, note }: PatternMarqueeProps) {
-  const items = Array.from({ length: EXAMPLE_COUNT }, (_, i) => i + 1);
+  const dir = path.join(process.cwd(), "public/products/examples");
+  const files = fs
+    .readdirSync(dir)
+    .filter((f) => f.startsWith(`${slug}-`) && f.endsWith(".jpg"))
+    .sort();
+  if (files.length === 0) return null;
+
   return (
     <div>
       <p className="text-sm font-bold uppercase tracking-wider text-soft">{title}</p>
@@ -18,11 +26,11 @@ export default function PatternMarquee({ slug, title, note }: PatternMarqueeProp
         <div className="marquee-track flex w-max">
           {[0, 1].map((half) => (
             <div key={half} className="flex gap-3 pr-3" aria-hidden={half === 1}>
-              {items.map((i) => (
+              {files.map((f, i) => (
                 <Image
-                  key={i}
-                  src={`/products/examples/${slug}-${i}.jpg`}
-                  alt={half === 0 ? `${title} ${i}` : ""}
+                  key={f}
+                  src={`/products/examples/${f}`}
+                  alt={half === 0 ? `${title} ${i + 1}` : ""}
                   width={700}
                   height={763}
                   className="h-40 w-auto rounded-lg sm:h-48"
