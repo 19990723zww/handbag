@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
-import BagArt from "@/components/BagArt";
 import QuickQuote from "@/components/QuickQuote";
 import ZaloIcon from "@/components/ZaloIcon";
 import { products, formatMoney, type ProductSlug } from "@/data/products";
@@ -111,8 +111,14 @@ export default async function Home({ params }: { params: LangParams }) {
                 href={`/${lang}/san-pham#${p.slug}`}
                 className="group rounded-2xl border border-line bg-white p-5 transition-all hover:-translate-y-1 hover:border-leaf hover:shadow-lg hover:shadow-forest/10"
               >
-                <div className="rounded-xl bg-mint p-6 transition-colors group-hover:bg-mint-deep">
-                  <BagArt variant={p.art} text={dict.bagArt} className="mx-auto h-40 w-40" />
+                <div className="overflow-hidden rounded-xl">
+                  <Image
+                    src={`/products/${p.slug}.jpg`}
+                    alt={text.name}
+                    width={900}
+                    height={982}
+                    className="h-auto w-full transition-transform duration-300 group-hover:scale-105"
+                  />
                 </div>
                 <div className="mt-4 flex items-center gap-2">
                   <h3 className="text-lg font-bold text-forest">{text.shortName}</h3>

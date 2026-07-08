@@ -15,6 +15,7 @@ import base64
 import json
 import pathlib
 import re
+import shutil
 import urllib.parse
 import urllib.request
 
@@ -239,6 +240,8 @@ def process(html: str, runtime_js: str) -> str:
             html = html.replace(f'href="/{lang}{route}"', f'href="../{lang}/{name}.html"')
         html = html.replace(f'href="/{lang}"', f'href="../{lang}/index.html"')
 
+    html = html.replace('src="/products/', 'src="../products/')
+
     html = html.replace(
         "</body>",
         "<!-- Bản tĩnh xuất từ Next.js. Muốn sửa: đổi nội dung trong src/ rồi chạy lại scripts/export-html.py -->\n"
@@ -258,6 +261,11 @@ def main():
             html = fetch(f"{BASE}/{lang}{route}").decode()
             (OUT / lang / f"{name}.html").write_text(process(html, runtime_js))
         print(f"  {lang}/ ({len(PAGES)} pages)")
+
+    products_dir = ROOT / "public/products"
+    if products_dir.is_dir():
+        shutil.copytree(products_dir, OUT / "products", dirs_exist_ok=True)
+        print("  products/ (images)")
 
     (OUT / "index.html").write_text(
         '<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8">'

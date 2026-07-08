@@ -8,8 +8,10 @@ const nextConfig: NextConfig = isExport
       output: "export",
       basePath: process.env.NEXT_BASE_PATH || "",
       trailingSlash: true,
+      images: { unoptimized: true },
     }
   : {
+      images: { unoptimized: true },
       async redirects() {
         return [
           { source: "/", destination: "/vi", permanent: false },

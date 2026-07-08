@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
-import BagArt from "@/components/BagArt";
 import ZaloIcon from "@/components/ZaloIcon";
 import { products, formatMoney } from "@/data/products";
 import { site } from "@/data/site";
@@ -60,8 +60,14 @@ export default async function ProductsPage({ params }: { params: LangParams }) {
               className="scroll-mt-24 grid gap-8 lg:grid-cols-[320px_1fr]"
             >
               <div>
-                <div className="rounded-2xl bg-mint p-8">
-                  <BagArt variant={p.art} text={dict.bagArt} className="mx-auto h-52 w-52" />
+                <div className="overflow-hidden rounded-2xl">
+                  <Image
+                    src={`/products/${p.slug}.jpg`}
+                    alt={text.name}
+                    width={900}
+                    height={982}
+                    className="h-auto w-full"
+                  />
                 </div>
                 <a
                   href={site.zaloUrl}
